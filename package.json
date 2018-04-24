@@ -1,0 +1,43 @@
+{
+  "name": "storebox-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoxSystem/StoreBox-Client.git"
+  },
+  "keywords": [
+    "StoreBox"
+  ],
+  "author": "AryloYeung <arylo.open@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoxSystem/StoreBox-Client/issues"
+  },
+  "homepage": "https://github.com/BoxSystem/StoreBox-Client#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "progress": "^2.0.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/progress": "^2.0.1",
+    "@types/request": "^2.47.0",
+    "@types/request-promise": "^4.1.41",
+    "@types/should": "^13.0.0",
+    "@types/source-map-support": "^0.4.0",
+    "@types/typescript": "^2.0.0",
+    "ava": "^0.25.0",
+    "nyc": "^11.7.1",
+    "should": "^13.2.1",
+    "source-map-support": "^0.5.4",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}
