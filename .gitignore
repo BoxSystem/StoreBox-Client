@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+package-lock.json
+
+lib/**/*.js
+lib/**/*.js.map
