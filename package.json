@@ -4,8 +4,9 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "tsc",
-    "publish": "np"
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "release": "npm run build && np"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/request": "^2.47.0",
     "@types/request-promise-native": "^1.0.14",
+    "np": "^2.20.1",
     "tslint": "^5.9.1",
     "typescript": "^2.8.3"
   }
