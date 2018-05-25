@@ -1,12 +1,12 @@
 {
   "name": "storebox-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.ts",
   "scripts": {
-    "build": "tsc",
-    "prepublish": "npm run build"
+    "build": "tsc --locale zh-cn --pretty",
+    "prepublish": "npm run build -- -P tsconfig.prod.json"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,9 @@
   "keywords": [
     "StoreBox"
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "author": "AryloYeung <arylo.open@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -26,6 +29,7 @@
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
+    "@types/node": "^10.1.2",
     "@types/request": "^2.47.0",
     "@types/request-promise-native": "^1.0.14",
     "tslint": "^5.9.1",
